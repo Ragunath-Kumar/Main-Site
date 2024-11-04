@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Staatliches&display=swap');html,body{margin: 0px; padding: 0px;}
+a{text-decoration: none; outline: none;}
+img{max-width: 100%;}
+.slick-slide {margin: 5px;}
+ul{padding: 0;list-style-type: none;margin: 0;}
+.slick-list {margin: 0 -5px;}
+header{z-index:1;position: absolute;width: 100%;background: #fff;top: 40px;}
+.logo{position: absolute;background: #fff;padding: 5px;top: -40px;}
+.nav-item{margin: 10px 0;}
+.nav-link{font-family: 'Roboto', sans-serif;color: #000;font-size: 15px;text-transform: uppercase;padding: 10px 14px !important;font-weight: 700;}
+.nav-link:hover,.nav-item.active a{color: #fff;background: #906e49;}
+.carousel-caption{top: 0;bottom: 0;display: flex;align-items: center;height: 100vh;max-width: 700px;margin: auto;}
+.carousel-caption h2{font-family: Staatliches;font-weight: 400;font-size: 3vmax;}
+.carousel-caption .btn,.welcome .btn{text-transform: uppercase; font-family: Roboto;font-weight: 700;background: #272727;color: #fff;border: 1px solid #fff;border-radius: 0;padding: 8px 20px;}
+.carousel-caption .btn:hover,.welcome .btn:hover{color: #272727;background: #fff;border: 1px solid #000;}
+.carousel-indicators button.thumbnail {width: 14%;height: auto;text-indent: 0;opacity: 1;background-color: transparent;}
+.carousel-indicators .active img{border: 5px solid #fff;}
+.carousel-indicators{background-color: #000000ab;margin: 0!important;justify-content: flex-end;}
+.carousel-control-next,.carousel-control-prev{opacity: 1!important;background-color: transparent!important;height: auto!important;}
+.pr{padding-right: 10%!important;}
+.carousel-control-prev {left: 43%;}
+.carousel-control-next {right: 7%;}
+.mobileshare p{font-family: Roboto;font-size: 20px;text-transform: uppercase;color: #fff;font-weight: 500;}
+.mobileshare i {background-color: #fff;color: #906e49;border-radius: 15px;width: 50px;height: 50px;font-size: 22px;line-height: 50px;text-align: center;}
+.mobileshare i:hover {color: #fff;background-color: #906e49;}
+.mobileshare{margin-top: -121px;position: relative;z-index: 11;width: fit-content;}
+
+.welcome h1{background-size: 80%!important;font-family: Roboto;background: url(../tpl_images/ghost.png) no-repeat left;font-size: 28px;color: #906e49;text-transform: uppercase;font-weight: 500;padding: 60px 0;}
+.slider h1{font-family: Roboto;font-size: 28px;color: #906e49;text-transform: uppercase;font-weight: 500;}
+.welcome h2{font-family: Staatliches;font-size: 50px;color: #906e49;text-transform: uppercase;font-weight: 400;}
+.welcome p{font-family: Roboto;font-size: 20px;color: #535353;text-transform: uppercase;font-weight: 500;}
+.slider .slick-slide {opacity:0.3;transition:opacity 0.1s ease-out;position: relative;}
+.slider .slick-slide:after{content: '';background: url(../tpl_images/ghost1.png) no-repeat;position: absolute;right: 0;width: 100%;height: 100%;bottom: 0;background-position: bottom 10px right 20px;background-size: 13%;}
+.slider .slick-active {opacity:1!important;transition:opacity 0.1s ease-in;}
+.slider .slick-cloned {opacity: 0.3;}
+.slick-prev:before,.slick-next:before{content: '';}
+.slider .slick-prev,.slider .slick-prev:hover{left: 25px; z-index: 1;background: url(../tpl_images/Group%2014.png) left top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
+.slider .slick-next,.slider .slick-next:hover{right: 25px;background: url(../tpl_images/Group%2015.png) right top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
+.welcome h6{font-family: Staatliches;font-size: 24px;color: #000;text-transform: uppercase;font-weight: 400;margin: 0;}
+.welcome .tel{font-family: Staatliches;font-size: 24px;color: #906e49;text-transform: uppercase;font-weight: 400;}
+.welcome a:hover{color: #535353;}
+
+.slider{background: #f6f2eb;}
+.slider h2{color: #252525;font-family: Staatliches;font-size: 44px;margin-bottom: 20px;text-transform: uppercase;}
+.shade{position: absolute;bottom: 0;left: 10px;}
+.slider .slick-slide:before{background: url(../tpl_images/gra.png);position: absolute;left: 0;width: 100%;height: 100%;content: '';bottom: 0px;}
+.slider .slick-slide:hover:before{background: url(../tpl_images/grahover.png);position: absolute;left:0;width: 100%;height: 100%;content: '';bottom: 0px;}
+.slider .shade p{margin-bottom: 5px; font-weight: 400;font-family: Roboto;font-size: 20px;color: #fff;}
+.slider .shade h5{font-weight: 500;font-family: Roboto;font-size: 24px;color: #fff;}
+
+.about{position: relative; margin: 70px 0; padding: 7% 0 5% 0; background: url(../tpl_images/about1.png) no-repeat right top;background-size:cover;}
+.about h1{color: #906e49;font-family: Staatliches;font-size: 44px; }
+.about h2{text-transform: uppercase; color: #fff;font-family: roboto;font-size: 20px; }
+.about p{margin: 0; color: #fff;font-family: roboto;font-size: 22px; }
+.about .btn{text-transform: uppercase; font-family: Roboto;font-weight: 700;background: fff0;color: #fff;border: 1px solid #fff;border-radius: 0;padding: 8px 20px;}
+.about .btn:hover{color: #906e49;border: 1px solid #906e49;}
+.about .btn-wrap{width:auto; position: absolute;right: 50px;top: 0;bottom: 0;display: flex;align-items: center;}
+.about .prev-btn{right:7%;position: absolute;top: 39%;width: 65px;}
+.about .next-btn{right:7%;position: absolute;top: 53%;width: 65px;}
+.about .slick-list{max-width: 80%;}
+
+
+.services{background: url(../tpl_images/ser.png) no-repeat center top;background-size: auto;}
+.services h1{margin-top: 4%;text-transform: uppercase; color: #ebb77f;font-family: Staatliches;font-size: 44px; }
+.services h4{margin: 0; color: #fff;font-family: roboto;font-size: 20px; }
+.services .card{border: 1px solid #906e49;border-radius: 0;}
+.services img{filter: brightness(0);}
+.services h5{text-transform: uppercase; color: #906e49;font-family: Staatliches;font-size: 44px; }
+.services p{margin-bottom:0;color: #535353;font-family: roboto;font-size: 20px; }
+.services .btn{position: relative;bottom: -36px; text-transform: uppercase; font-family: Roboto;font-weight: 700;background: #272727;color: #fff;border: 1px solid #fff;border-radius: 0;padding: 8px 20px;}
+.services .card:hover img{filter: brightness(1);}
+.services .card:hover h5{color: #000;}
+.services .card:hover .btn{background: #906e49;color: #fff;border: 1px solid #fff;}
+
+.appointment{background: #906e49;}
+.appointment h6{font-family: Staatliches;font-size: 24px;color: #252525;text-transform: uppercase;font-weight: 400;margin: 0;}
+.appointment .tel{font-family: Staatliches;font-size: 30px;color: #fff;text-transform: uppercase;font-weight: 400;line-height: 1;}
+.appointment a:hover{color: #535353;}
+.appointment p{ color: #fff;margin: 0; font-family: roboto;font-size:18px; }
+.appointment .btn{text-transform: uppercase; font-family: Roboto;font-weight: 700;background: #272727;color: #fff;border: 1px solid #fff;border-radius: 0;padding: 8px 20px;}
+.appointment .btn:hover{background: #906e49;color: #fff;border: 1px solid #fff;}
+
+hr{border-top: 1px solid #fff;opacity: 1;margin: 30px auto!important;width: 98%!important;}
+footer{background: url(../tpl_images/footerbg.png);background-size: cover;}
+footer .wel{font-style: italic; color: #fff;margin: 0; font-family: roboto;font-size:18px; }
+.shareus p,footer h1{font-family: Staatliches;font-size: 20px;text-transform: uppercase;color: #fff;font-weight: 500;}
+.shareus i {background-color: #f6f2eb;color: #906e49;border-radius: 15px;width:45px;height:45px;font-size: 25px;line-height:45px;text-align: center;}
+.shareus i:hover {color: #fff;background-color: #906e49;}
+.addr a,.ph a{color: #f6f2eb;font-family: Roboto;font-size: 18px;}
+.addr a:hover,.ph a:hover{color: #ccc;}
+.quick a,.areas a,.nl{color: #f6f2eb;font-family: roboto;font-size: 18px;font-weight: 500;padding-bottom: 10px;display: block; text-transform: capitalize;}
+.quick a:hover,.areas a:hover{color: #ccc;}
+.form-control{border:0;font-family: Roboto;border-radius: 0;padding: 10px 25px;font-weight: 500;}
+form button{color: #fff;background: #906e49;padding: 17px 35px;font-family: roboto;font-weight: 500;text-transform: uppercase;border: 0;}
+form button:hover{color: #fff;background: #000;}
+footer h6,footer a{font-family: Roboto;font-weight: 500;color: #f6f2eb;}
+footer a:hover{color: #ccc!important;}
+@media(min-width:1399px) and (max-width:1525px){
+    .about .slick-list{margin-left: 2%}
+}
+@media(max-width:1199px){
+    .logo{top: 0px;width: 222px;position: relative;} 
+    header{position: relative;top: 0;}
+
+}
+@media(max-width:991px){
+    .welcome h1{padding: 20px 0;}
+    .about .slick-list {max-width: 600px;}
+    .logo{top: 0px;width: 222px;position: relative;} 
+    .carousel-indicators{;justify-content: flex-end;}
+    .carousel-control-prev,.carousel-control-next {display: none;}
+    .pr{padding-right: 0%!important;}
+    .width{width: 500px;}
+    hr{;margin:10px auto!important;width: 95%!important;}
+}
+@media(max-width:767px){
+    h1,h2{font-size: 33px!important;}
+    footer h1,footer h2{font-size: 20px!important;}
+    .about .mb-4{width: 200px;margin-bottom: 0 !important;margin-top: 15px;}
+    .about .btn-wrap{display: none;}
+    .about{;background-size:cover;margin: 10px 0;padding: 15px 0;}
+    .about .slick-prev,.about .slick-next{display: none!important;}
+    .welcome h1{background-size: contain;padding: 25px 0;}
+    .carousel-indicators button.thumbnail{width: 100px;}
+    .carousel-indicators{background-color: #000;margin: 0!important;justify-content: center;position: relative;}
+    .nav-item{margin:0;}
+    #collapsibleNavbar{position: absolute;width: 250px;background-color: #906e49;right: 0px;top: 52px;border: 1px solid #ccc;border-radius: 5px;}
+    .mobileshare {margin-bottom: 10px; margin-top: 0;position: relative;z-index: 11;width: auto;}
+    .share {margin-top: 0;position: relative;z-index: 11;background: black;text-align: center;padding-bottom: 1px;}
+}
+@media(max-width:575px){
+    .carousel-caption h2{font-size: 2vmax;}
+    .carousel-caption{max-width: 100%; position: relative;background: #000;height: auto;inset:0;padding-bottom: 0;}
+}
+
+
