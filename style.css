@@ -25,17 +25,17 @@ header{z-index:1;position: absolute;width: 100%;background: #fff;top: 40px;}
 .mobileshare i:hover {color: #fff;background-color: #906e49;}
 .mobileshare{margin-top: -121px;position: relative;z-index: 11;width: fit-content;}
 
-.welcome h1{background-size: 80%!important;font-family: Roboto;background: url(../tpl_images/ghost.png) no-repeat left;font-size: 28px;color: #906e49;text-transform: uppercase;font-weight: 500;padding: 60px 0;}
+.welcome h1{background-size: 80%!important;font-family: Roboto;background: url(./tpl_images/ghost.png) no-repeat left;font-size: 28px;color: #906e49;text-transform: uppercase;font-weight: 500;padding: 60px 0;}
 .slider h1{font-family: Roboto;font-size: 28px;color: #906e49;text-transform: uppercase;font-weight: 500;}
 .welcome h2{font-family: Staatliches;font-size: 50px;color: #906e49;text-transform: uppercase;font-weight: 400;}
 .welcome p{font-family: Roboto;font-size: 20px;color: #535353;text-transform: uppercase;font-weight: 500;}
 .slider .slick-slide {opacity:0.3;transition:opacity 0.1s ease-out;position: relative;}
-.slider .slick-slide:after{content: '';background: url(../tpl_images/ghost1.png) no-repeat;position: absolute;right: 0;width: 100%;height: 100%;bottom: 0;background-position: bottom 10px right 20px;background-size: 13%;}
+.slider .slick-slide:after{content: '';background: url(./tpl_images/ghost1.png) no-repeat;position: absolute;right: 0;width: 100%;height: 100%;bottom: 0;background-position: bottom 10px right 20px;background-size: 13%;}
 .slider .slick-active {opacity:1!important;transition:opacity 0.1s ease-in;}
 .slider .slick-cloned {opacity: 0.3;}
 .slick-prev:before,.slick-next:before{content: '';}
-.slider .slick-prev,.slider .slick-prev:hover{left: 25px; z-index: 1;background: url(../tpl_images/Group%2014.png) left top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
-.slider .slick-next,.slider .slick-next:hover{right: 25px;background: url(../tpl_images/Group%2015.png) right top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
+.slider .slick-prev,.slider .slick-prev:hover{left: 25px; z-index: 1;background: url(./tpl_images/Group%2014.png) left top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
+.slider .slick-next,.slider .slick-next:hover{right: 25px;background: url(./tpl_images/Group%2015.png) right top;width: 100px;height: 100px;opacity: 1;background-repeat: no-repeat;}
 .welcome h6{font-family: Staatliches;font-size: 24px;color: #000;text-transform: uppercase;font-weight: 400;margin: 0;}
 .welcome .tel{font-family: Staatliches;font-size: 24px;color: #906e49;text-transform: uppercase;font-weight: 400;}
 .welcome a:hover{color: #535353;}
@@ -43,12 +43,12 @@ header{z-index:1;position: absolute;width: 100%;background: #fff;top: 40px;}
 .slider{background: #f6f2eb;}
 .slider h2{color: #252525;font-family: Staatliches;font-size: 44px;margin-bottom: 20px;text-transform: uppercase;}
 .shade{position: absolute;bottom: 0;left: 10px;}
-.slider .slick-slide:before{background: url(../tpl_images/gra.png);position: absolute;left: 0;width: 100%;height: 100%;content: '';bottom: 0px;}
-.slider .slick-slide:hover:before{background: url(../tpl_images/grahover.png);position: absolute;left:0;width: 100%;height: 100%;content: '';bottom: 0px;}
+.slider .slick-slide:before{background: url(./tpl_images/gra.png);position: absolute;left: 0;width: 100%;height: 100%;content: '';bottom: 0px;}
+.slider .slick-slide:hover:before{background: url(./tpl_images/grahover.png);position: absolute;left:0;width: 100%;height: 100%;content: '';bottom: 0px;}
 .slider .shade p{margin-bottom: 5px; font-weight: 400;font-family: Roboto;font-size: 20px;color: #fff;}
 .slider .shade h5{font-weight: 500;font-family: Roboto;font-size: 24px;color: #fff;}
 
-.about{position: relative; margin: 70px 0; padding: 7% 0 5% 0; background: url(../tpl_images/about1.png) no-repeat right top;background-size:cover;}
+.about{position: relative; margin: 70px 0; padding: 7% 0 5% 0; background: url(./tpl_images/about1.png) no-repeat right top;background-size:cover;}
 .about h1{color: #906e49;font-family: Staatliches;font-size: 44px; }
 .about h2{text-transform: uppercase; color: #fff;font-family: roboto;font-size: 20px; }
 .about p{margin: 0; color: #fff;font-family: roboto;font-size: 22px; }
@@ -60,7 +60,7 @@ header{z-index:1;position: absolute;width: 100%;background: #fff;top: 40px;}
 .about .slick-list{max-width: 80%;}
 
 
-.services{background: url(../tpl_images/ser.png) no-repeat center top;background-size: auto;}
+.services{background: url(./tpl_images/ser.png) no-repeat center top;background-size: auto;}
 .services h1{margin-top: 4%;text-transform: uppercase; color: #ebb77f;font-family: Staatliches;font-size: 44px; }
 .services h4{margin: 0; color: #fff;font-family: roboto;font-size: 20px; }
 .services .card{border: 1px solid #906e49;border-radius: 0;}
@@ -81,7 +81,7 @@ header{z-index:1;position: absolute;width: 100%;background: #fff;top: 40px;}
 .appointment .btn:hover{background: #906e49;color: #fff;border: 1px solid #fff;}
 
 hr{border-top: 1px solid #fff;opacity: 1;margin: 30px auto!important;width: 98%!important;}
-footer{background: url(../tpl_images/footerbg.png);background-size: cover;}
+footer{background: url(./tpl_images/footerbg.png);background-size: cover;}
 footer .wel{font-style: italic; color: #fff;margin: 0; font-family: roboto;font-size:18px; }
 .shareus p,footer h1{font-family: Staatliches;font-size: 20px;text-transform: uppercase;color: #fff;font-weight: 500;}
 .shareus i {background-color: #f6f2eb;color: #906e49;border-radius: 15px;width:45px;height:45px;font-size: 25px;line-height:45px;text-align: center;}
