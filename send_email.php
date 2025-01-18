@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Recipient email address
-    $toEmail = "ragunathkumar19@gmail.com";
+    $toEmail = "ragunathkumar20@gmail.com";
 
     // Create PHPMailer instance
     $mail = new PHPMailer(true);
@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Use your SMTP host
         $mail->SMTPAuth = true;
-        $mail->Username = 'your-email@gmail.com'; // Your Gmail address
-        $mail->Password = 'your-password';       // Your Gmail app password
+        $mail->Username = 'ragunathkumar19@gmail.com'; // Your Gmail address
+        $mail->Password = 'Ragu@9360738247';       // Your Gmail app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
